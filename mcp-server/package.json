@@ -1,0 +1,19 @@
+{
+  "name": "sequel-tracker-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Sequel Tracker - Movie and TV Show tracking",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "sequel-tracker-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["mcp", "model-context-protocol", "movies", "tv-shows", "tracking"],
+  "author": "Sequel Tracker",
+  "license": "MIT"
+}
